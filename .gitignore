@@ -1,0 +1,46 @@
+# Ignore the virtual environment
+venv/
+.env/
+.venv/
+.DS_Store
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables and credentials
+*.env
+.envrc
+secrets.json
+config.json
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.tmp
+.DS_Store  # macOS files
+Thumbs.db  # Windows thumbnail cache
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.iml
+
+# Ignore dependency files (if using pipenv or poetry)
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore compiled Python files
+*.egg-info/
+dist/
+build/
+
+# Ignore README if it's auto-generated (optional)
+# README.md
